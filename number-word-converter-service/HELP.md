@@ -14,3 +14,13 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
+Api Details:
+
+Following api with different input numbers
+1. GET: http://localhost:8081/virtusa/converter/word?number=0
+1. GET: http://localhost:8081/virtusa/converter/word?number=1
+1. GET: http://localhost:8081/virtusa/converter/word?number=21
+1. GET: http://localhost:8081/virtusa/converter/word?number=105
+1. GET: http://localhost:8081/virtusa/converter/word?number=56945781
+1. GET: http://localhost:8081/virtusa/converter/word?number=999,999,999
+
