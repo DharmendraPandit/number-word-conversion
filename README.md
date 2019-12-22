@@ -16,6 +16,6 @@ Steps to run the maven base spring boot application:
 2. java -jar target/number-word-converter-service-0.0.1-SNAPSHOT.jar or mvn spring-boot:run
 
 Microservice details:
-  Port: 8081
-  Context path: /virtusa/converter
-  Service url: GET: http://localhost:8081/virtusa/converter/word?number=21
+  1. Port: 8081
+  2. Context path: /virtusa/converter
+  3. Service url: GET: http://localhost:8081/virtusa/converter/word?number=21
