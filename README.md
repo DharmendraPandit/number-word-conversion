@@ -14,3 +14,8 @@ Following api with different input numbers
 Steps to run the maven base spring boot application:
 1. mvn install
 2. java -jar target/number-word-converter-service-0.0.1-SNAPSHOT.jar or mvn spring-boot:run
+
+Microservice details:
+  Port: 8081
+  Context path: /virtusa/converter
+  Service url: GET: http://localhost:8081/virtusa/converter/word?number=21
